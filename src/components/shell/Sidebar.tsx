@@ -17,9 +17,9 @@ import {
 } from 'lucide-react';
 
 const crmLinks = [
-  { to: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
-  { to: '/leads', label: 'Leads', icon: FileText, badge: true },
-  { to: '/clients', label: 'Clients', icon: Users },
+  { to: '/crm/dashboard', label: 'Dashboard', icon: LayoutDashboard },
+  { to: '/crm/leads', label: 'Leads', icon: FileText, badge: true },
+  { to: '/crm/clients', label: 'Clients', icon: Users },
 ];
 
 const adminLinks = [
